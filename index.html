@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculador</title>
+</head>
+<body>
+   
+   <script type="text/javascript">
+       var primerValor = prompt('Por favor ingrese un numero');
+       var operacion = prompt('Por favor indique que operacion matematica desea realizar, las operaciones validas son: suma, resta, multiplicacion o division');
+       var segundovalor = prompt('Por favor ingrese un numero');
+       
+       
+       
+           
+       if (operacion=='multiplicacion' || operacion=='*' || operacion=='multiplicación' ||operacion=='Multiplicacion' || operacion=='Multiplicación' ){
+           var resultadoMulti = primerValor * segundovalor;
+           alert('El resultado de la multiplicacion es:' + resultadoMulti);
+       }
+       else if (operacion=='division' || operacion=='/' || operacion=='división' ||operacion=='Division' || operacion=='División' ){
+           var resultadoDiv = primerValor / segundovalor;
+           alert('El resultado de la division es:' + resultadoDiv);
+       }
+       else if (operacion=='resta' || operacion=='-' || operacion=='Resta'){
+           var resultadoResta = primerValor - segundovalor;
+           alert('El resultado de la resta es:' + resultadoResta);
+       }
+       else if (operacion=='suma' || operacion=='+' || operacion=='Suma'){
+           var resultadoSuma = primerValor + segundovalor;
+           alert('El resultado de la suma es:' + resultadoSuma);
+       }
+        
+       
+    </script>
+    
+</body>
+</html>
